@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tracy-ai-interviewer": {
+      "type": "http",
+      "url": "https://tracyinterview.ai/mcp"
+    }
+  }
+}

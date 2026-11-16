@@ -1,0 +1,20 @@
+{
+  "name": "tracy-ai-interviewer",
+  "description": "Run AI video or audio interviews from your chat with Tracy AI Interviewer: suggest an interview, create it, practice it yourself, invite people and read what they said.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Qode"
+  },
+  "homepage": "https://tracyinterview.ai",
+  "displayName": "Tracy AI Interviewer",
+  "repository": "https://github.com/Qode-Platform/tracy-ai-interviewer-plugin",
+  "license": "Apache-2.0",
+  "skills": [
+    "./skills/tracy-suggest-interview",
+    "./skills/tracy-practice-run",
+    "./skills/tracy-invite-people",
+    "./skills/tracy-read-results"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://tracyinterview.ai/privacy"
+}
