@@ -1,0 +1,17 @@
+{
+  "name": "tracy-ai-interviewer-plugins",
+  "owner": {
+    "name": "Qode"
+  },
+  "metadata": {
+    "description": "Tracy AI Interviewer plugin for Claude",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tracy-ai-interviewer",
+      "source": "./",
+      "description": "Run AI video or audio interviews from your chat with Tracy AI Interviewer: suggest an interview, create it, practice it yourself, invite people and read what they said."
+    }
+  ]
+}
