@@ -1,0 +1,11 @@
+{
+  "name": "tracy-ai-interviewer",
+  "version": "1.0.1",
+  "description": "Run AI video or audio interviews from your chat with Tracy AI Interviewer: suggest an interview, create it, practice it yourself, invite people and read what they said.",
+  "mcpServers": {
+    "tracy-ai-interviewer": {
+      "url": "https://tracyinterview.ai/mcp",
+      "type": "http"
+    }
+  }
+}

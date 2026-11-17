@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tracy-ai-interviewer",
+  "version": "1.0.1",
+  "description": "Run AI video or audio interviews from your chat with Tracy AI Interviewer: suggest an interview, create it, practice it yourself, invite people and read what they said.",
+  "author": {
+    "name": "Qode"
+  },
+  "homepage": "https://tracyinterview.ai",
+  "repository": "https://github.com/Qode-Platform/tracy-ai-interviewer-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["interviews", "hiring", "user-research", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Tracy AI Interviewer",
+        "shortDescription": "Run AI video or audio interviews and read what people said.",
+        "longDescription": "Suggest an interview, create it, practice it yourself, invite people and read what they said. Tracy AI Interviewer reports answers; it does not score, rank or reject anyone.",
+        "developerName": "Qode",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://tracyinterview.ai",
+        "supportURL": "https://tracyinterview.ai/support",
+        "privacyPolicyURL": "https://tracyinterview.ai/privacy",
+        "termsOfServiceURL": "https://tracyinterview.ai/terms",
+        "defaultPrompt": [
+          "Help me draft a customer research interview about onboarding.",
+          "Show me what people said in my latest interview."
+        ],
+        "composerIcon": "./.claude-plugin/icon.png",
+        "logo": "./.claude-plugin/icon.png"
+      }
+    }
+  }
+}
