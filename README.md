@@ -19,7 +19,7 @@ Every app below uses the same server address and the same four skill folders und
 4. Open the plugin's **Connectors** tab, connect **Tracy AI Interviewer**, and sign in when prompted. On Team and Enterprise plans, an organization Owner may need to add the connector first.
 5. Start a new chat or Cowork task. Ask, for example: “Help me draft a customer research interview about onboarding.” Use the skill picker or slash menu where available; Claude can also apply the skills from your request.
 
-The repository is currently private, so GitHub access is required. A public directory listing is not live yet. Once the owner publishes the plugin to Anthropic's directory, you can find and install **Tracy AI Interviewer** from **Customize > Plugins** directly. Installing only the existing connector does not install these skills.
+A public directory listing is not live yet. Once the owner publishes the plugin to Anthropic's directory, you can find and install **Tracy AI Interviewer** from **Customize > Plugins** directly. Installing only the existing connector does not install these skills.
 
 ## Install in Claude Code
 
@@ -53,7 +53,7 @@ Each app reads its own manifest from the repository root, next to the Claude fil
 | `gemini-extension.json` | Gemini CLI |
 | `.claude-plugin/` + `.mcp.json` | Claude (unchanged) |
 
-Every app signs in to Tracy AI Interviewer with OAuth the first time a tool is used; no keys are stored in this repository. While the repository is private, installing from GitHub needs read access to it. Formats were checked against each vendor's documentation on 2026-11-17.
+Every app signs in to Tracy AI Interviewer with OAuth the first time a tool is used; no keys are stored in this repository. Formats were checked against each vendor's documentation on 2026-11-17.
 
 ### ChatGPT and Codex
 
